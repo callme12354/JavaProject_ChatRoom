@@ -1,6 +1,7 @@
 package com.example.csc1004javaprojectchatroom;
 
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
