@@ -32,7 +32,7 @@ public class JDBC {
         ResultSet resultSet = null;
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javafxtest", "root", "@ZZt9981001");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_project", "root", "@ZZt9981001");
             preparedStatement = connection.prepareStatement("SELECT password FROM javafxuser WHERE username = ?");
             preparedStatement.setString(1, usernameInput);
             resultSet = preparedStatement.executeQuery();
@@ -81,7 +81,7 @@ public class JDBC {
         ResultSet resultSet = null;
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javafxtest", "root", "@ZZt9981001");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_project", "root", "@ZZt9981001");
             preparedStatement = connection.prepareStatement("SELECT password FROM javafxuser WHERE username = ?");
             preparedStatement.setString(1, usernameInput);
             resultSet = preparedStatement.executeQuery();
@@ -122,7 +122,7 @@ public class JDBC {
 
         if (!newUsername.equals("") && !newPassword.equals("")) {
             try {
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javafxtest", "root", "@ZZt9981001");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_project", "root", "@ZZt9981001");
                 preparedStatement = connection.prepareStatement("SELECT password FROM javafxuser WHERE username = ?");
                 preparedStatement.setString(1, newUsername);
                 resultSet = preparedStatement.executeQuery();

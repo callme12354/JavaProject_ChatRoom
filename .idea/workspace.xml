@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e727bd61-3f2d-4377-8b6b-563bb01b86af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/CongratsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/login_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/Cooper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/Mike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/congras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/handshake.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/jumping.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/jumping_congrats.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/login1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/signup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/signup2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/tietie.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/images/wrong password.jpg" afterDir="false" />
+    <list default="true" id="e727bd61-3f2d-4377-8b6b-563bb01b86af" name="Changes" comment="final ver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/LoginSuccessfulController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/csc1004javaprojectchatroom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/csc1004javaprojectchatroom/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +25,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/大学/codes/CSC1004-JavaProject-ChatRoom/src/main/resources/com/example/csc1004javaprojectchatroom&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/CSC1004-JavaProject-ChatRoom",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.externalResources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\大学\codes\CSC1004-JavaProject-ChatRoom\src\main\resources\com\example\csc1004javaprojectchatroom" />
@@ -86,7 +74,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" singleton="false">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.csc1004javaprojectchatroom.Main" />
+      <module name="CSC1004-JavaProject-ChatRoom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.csc1004javaprojectchatroom.Main" />
+      <module name="CSC1004-JavaProject-ChatRoom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multi-client" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="com.example.csc1004javaprojectchatroom.Main" />
       <module name="CSC1004-JavaProject-ChatRoom" />
       <method v="2">
@@ -106,8 +108,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+      <option name="MAIN_CLASS_NAME" value="com.example.csc1004javaprojectchatroom.Main" />
+      <module name="CSC1004-JavaProject-ChatRoom" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Multi-client" />
       <item itemvalue="Application.server" />
     </list>
     <recent_temporary>
@@ -125,7 +137,30 @@
       <option name="presentableId" value="Default" />
       <updated>1680608041088</updated>
     </task>
+    <task id="LOCAL-00001" summary="final ver">
+      <created>1683216352632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683216352632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
